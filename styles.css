@@ -1,0 +1,23 @@
+* {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300))); /*Formula credit: Mike Riethmuller*/
+    line-height: calc(1.2em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); /*Website Reference: https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/*/
+  }
+
+.bg-one{
+    background-color: #FA8072;
+}
+
+.text-one
+{
+    color: #ffffff;
+}
+
+
+.bg-two{
+    background-color: #ffffff;
+}
+
+.text-two
+{
+    color: #FA8072;
+}
